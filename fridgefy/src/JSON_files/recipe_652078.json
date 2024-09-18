@@ -1,0 +1,613 @@
+{
+  "vegetarian": true,
+  "vegan": true,
+  "glutenFree": false,
+  "dairyFree": true,
+  "veryHealthy": true,
+  "cheap": false,
+  "veryPopular": false,
+  "sustainable": false,
+  "lowFodmap": false,
+  "weightWatcherSmartPoints": 2,
+  "gaps": "no",
+  "preparationMinutes": -1,
+  "cookingMinutes": -1,
+  "aggregateLikes": 1,
+  "healthScore": 86,
+  "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+  "license": "CC BY 3.0",
+  "sourceName": "Foodista",
+  "pricePerServing": 100.84,
+  "extendedIngredients": [
+    {
+      "id": 14412,
+      "aisle": "Beverages",
+      "image": "water.png",
+      "consistency": "LIQUID",
+      "name": "water",
+      "nameClean": "water",
+      "original": "2 cups of water",
+      "originalName": "water",
+      "amount": 2,
+      "unit": "cups",
+      "meta": [],
+      "measures": {
+        "us": {
+          "amount": 2,
+          "unitShort": "cups",
+          "unitLong": "cups"
+        },
+        "metric": {
+          "amount": 473.176,
+          "unitShort": "ml",
+          "unitLong": "milliliters"
+        }
+      }
+    },
+    {
+      "id": 10011457,
+      "aisle": "Produce",
+      "image": "spinach.jpg",
+      "consistency": "SOLID",
+      "name": "spinach",
+      "nameClean": "spinach",
+      "original": "bunch of fresh spinach",
+      "originalName": "fresh spinach",
+      "amount": 1,
+      "unit": "bunch",
+      "meta": ["fresh"],
+      "measures": {
+        "us": {
+          "amount": 1,
+          "unitShort": "bunch",
+          "unitLong": "bunch"
+        },
+        "metric": {
+          "amount": 1,
+          "unitShort": "bunch",
+          "unitLong": "bunch"
+        }
+      }
+    },
+    {
+      "id": 10016213,
+      "aisle": "Ethnic Foods",
+      "image": "tofu.png",
+      "consistency": "SOLID",
+      "name": "block of tofu",
+      "nameClean": "firm tofu",
+      "original": "1/2 of a block of firm tofu",
+      "originalName": "block of firm tofu",
+      "amount": 0.5,
+      "unit": "",
+      "meta": ["firm"],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11260,
+      "aisle": "Produce",
+      "image": "mushrooms.png",
+      "consistency": "SOLID",
+      "name": "shitaki mushrooms",
+      "nameClean": "fresh mushrooms",
+      "original": "8 shitaki mushrooms, cut up lengthwise",
+      "originalName": "shitaki mushrooms, cut up lengthwise",
+      "amount": 8,
+      "unit": "",
+      "meta": [],
+      "measures": {
+        "us": {
+          "amount": 8,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 8,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11260,
+      "aisle": "Produce",
+      "image": "mushrooms-white.jpg",
+      "consistency": "SOLID",
+      "name": "shitaki mushrooms",
+      "nameClean": "fresh mushrooms",
+      "original": "8 shitaki mushrooms, cut up lengthwise",
+      "originalName": "shitaki mushrooms, cut up lengthwise",
+      "amount": 8,
+      "unit": "",
+      "meta": [],
+      "measures": {
+        "us": {
+          "amount": 8,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 8,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11156,
+      "aisle": "Produce",
+      "image": "fresh-chives.jpg",
+      "consistency": "SOLID",
+      "name": "chives",
+      "nameClean": "chives",
+      "original": "2 smalls chives, cut into squares",
+      "originalName": "s chives, cut into squares",
+      "amount": 2,
+      "unit": "small",
+      "meta": ["cut into squares"],
+      "measures": {
+        "us": {
+          "amount": 2,
+          "unitShort": "small",
+          "unitLong": "smalls"
+        },
+        "metric": {
+          "amount": 2,
+          "unitShort": "small",
+          "unitLong": "smalls"
+        }
+      }
+    },
+    {
+      "id": 10511282,
+      "aisle": "Produce",
+      "image": "brown-onion.png",
+      "consistency": "SOLID",
+      "name": "onion",
+      "nameClean": "yellow onion",
+      "original": "1 yellow onion, chopped up",
+      "originalName": "yellow onion, chopped up",
+      "amount": 1,
+      "unit": "",
+      "meta": ["yellow", "chopped"],
+      "measures": {
+        "us": {
+          "amount": 1,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 20133,
+      "aisle": "Ethnic Foods",
+      "image": "rice-noodles.jpg",
+      "consistency": "SOLID",
+      "name": "thai kitchen rice noodles",
+      "nameClean": "rice vermicelli",
+      "original": "1/2 package of a of Thai Kitchen Thin Rice Noodles",
+      "originalName": "of Thai Kitchen Thin Rice Noodles",
+      "amount": 0.5,
+      "unit": "package",
+      "meta": ["thin"],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "pkg",
+          "unitLong": "packages"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "pkg",
+          "unitLong": "packages"
+        }
+      }
+    },
+    {
+      "id": 20133,
+      "aisle": "Ethnic Foods",
+      "image": "dried-rice-noodles.jpg",
+      "consistency": "SOLID",
+      "name": "thai kitchen rice noodles",
+      "nameClean": "rice vermicelli",
+      "original": "1/2 package of a of Thai Kitchen Thin Rice Noodles",
+      "originalName": "of Thai Kitchen Thin Rice Noodles",
+      "amount": 0.5,
+      "unit": "package",
+      "meta": ["thin"],
+      "measures": {
+        "us": {
+          "amount": 0.5,
+          "unitShort": "pkg",
+          "unitLong": "packages"
+        },
+        "metric": {
+          "amount": 0.5,
+          "unitShort": "pkg",
+          "unitLong": "packages"
+        }
+      }
+    },
+    {
+      "id": 11216,
+      "aisle": "Produce",
+      "image": "ginger.png",
+      "consistency": "SOLID",
+      "name": "ginger",
+      "nameClean": "ginger",
+      "original": "1 ginger",
+      "originalName": "ginger",
+      "amount": 1,
+      "unit": "",
+      "meta": [],
+      "measures": {
+        "us": {
+          "amount": 1,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11298,
+      "aisle": "Produce",
+      "image": "parsnip.jpg",
+      "consistency": "SOLID",
+      "name": "parsnip",
+      "nameClean": "parsnip",
+      "original": "1 parsnip, cut up",
+      "originalName": "parsnip, cut up",
+      "amount": 1,
+      "unit": "",
+      "meta": [],
+      "measures": {
+        "us": {
+          "amount": 1,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11960,
+      "aisle": "Produce",
+      "image": "baby-carrots.jpg",
+      "consistency": "SOLID",
+      "name": "baby carrots",
+      "nameClean": "baby carrots",
+      "original": "6 baby carrots, cut up",
+      "originalName": "baby carrots, cut up",
+      "amount": 6,
+      "unit": "",
+      "meta": [],
+      "measures": {
+        "us": {
+          "amount": 6,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 6,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 11477,
+      "aisle": "Produce",
+      "image": "zucchini.jpg",
+      "consistency": "SOLID",
+      "name": "zucchini",
+      "nameClean": "zucchini",
+      "original": "1 zucchini, cut up",
+      "originalName": "zucchini, cut up",
+      "amount": 1,
+      "unit": "",
+      "meta": [],
+      "measures": {
+        "us": {
+          "amount": 1,
+          "unitShort": "",
+          "unitLong": ""
+        },
+        "metric": {
+          "amount": 1,
+          "unitShort": "",
+          "unitLong": ""
+        }
+      }
+    },
+    {
+      "id": 1032009,
+      "aisle": "Spices and Seasonings",
+      "image": "red-pepper-flakes.jpg",
+      "consistency": "SOLID",
+      "name": "pepper flakes-taste as you go to adjust flavors",
+      "nameClean": "red pepper flakes",
+      "original": "pinch of red pepper flakes-taste as you go to adjust flavors",
+      "originalName": "pinch of red pepper flakes-taste as you go to adjust flavors",
+      "amount": 1,
+      "unit": "pinch",
+      "meta": ["red"],
+      "measures": {
+        "us": {
+          "amount": 1,
+          "unitShort": "pinch",
+          "unitLong": "pinch"
+        },
+        "metric": {
+          "amount": 1,
+          "unitShort": "pinch",
+          "unitLong": "pinch"
+        }
+      }
+    },
+    {
+      "id": 2021,
+      "aisle": "Spices and Seasonings",
+      "image": "ginger.png",
+      "consistency": "SOLID",
+      "name": "ginger powder-taste as you go to adjust flavors",
+      "nameClean": "ginger powder",
+      "original": "pinch of ginger powder-taste as you go to adjust flavors",
+      "originalName": "pinch of ginger powder-taste as you go to adjust flavors",
+      "amount": 1,
+      "unit": "pinch",
+      "meta": [],
+      "measures": {
+        "us": {
+          "amount": 1,
+          "unitShort": "pinch",
+          "unitLong": "pinch"
+        },
+        "metric": {
+          "amount": 1,
+          "unitShort": "pinch",
+          "unitLong": "pinch"
+        }
+      }
+    }
+  ],
+  "id": 652078,
+  "title": "Miso Soup With Thin Noodles",
+  "readyInMinutes": 45,
+  "servings": 8,
+  "sourceUrl": "https://www.foodista.com/recipe/BYJ4Q2M5/miso-soup-with-thin-noodles",
+  "image": "https://img.spoonacular.com/recipes/652078-556x370.jpg",
+  "imageType": "jpg",
+  "taste": {
+    "sweetness": 40.11,
+    "saltiness": 100,
+    "sourness": 32.64,
+    "bitterness": 55.68,
+    "savoriness": 73.06,
+    "fattiness": 49.79,
+    "spiciness": 0
+  },
+  "summary": "Miso Soup With Thin Noodles could be just the \u003Cb\u003Edairy free, lacto ovo vegetarian, and vegan\u003C/b\u003E recipe you've been looking for. One portion of this dish contains around \u003Cb\u003E5g of protein\u003C/b\u003E, \u003Cb\u003E2g of fat\u003C/b\u003E, and a total of \u003Cb\u003E114 calories\u003C/b\u003E. For \u003Cb\u003E$1.01 per serving\u003C/b\u003E, you get a hor d'oeuvre that serves 8. It can be enjoyed any time, but it is especially good for \u003Cb\u003EAutumn\u003C/b\u003E. It is brought to you by Foodista. It is a \u003Cb\u003Ereasonably priced\u003C/b\u003E recipe for fans of Japanese food. 1 person found this recipe to be flavorful and satisfying. A mixture of thai kitchen rice noodles, spinach, baby carrots, and a handful of other ingredients are all it takes to make this recipe so tasty. From preparation to the plate, this recipe takes approximately \u003Cb\u003E45 minutes\u003C/b\u003E. All things considered, we decided this recipe \u003Cb\u003Edeserves a spoonacular score of 89%\u003C/b\u003E. This score is excellent. Try \u003Ca href=\"https://spoonacular.com/recipes/a-quick-and-easy-soup-miso-soup-with-soba-noodles-or-mung-bean-31003\"\u003EA Quick And Easy Soup {miso Soup With Soba Noodles Or Mung Bean\u003C/a\u003E, \u003Ca href=\"https://spoonacular.com/recipes/soba-noodles-with-miso-broth-37466\"\u003ESoba Noodles with Miso Broth\u003C/a\u003E, and \u003Ca href=\"https://spoonacular.com/recipes/ginger-miso-noodles-with-eggplant-446340\"\u003Eginger miso noodles with eggplant\u003C/a\u003E for similar recipes.",
+  "cuisines": ["Asian", "Japanese"],
+  "dishTypes": [
+    "antipasti",
+    "soup",
+    "starter",
+    "snack",
+    "appetizer",
+    "antipasto",
+    "hor d'oeuvre"
+  ],
+  "diets": ["dairy free", "lacto ovo vegetarian", "vegan"],
+  "occasions": ["fall", "winter"],
+  "winePairing": {
+    "pairedWines": ["sauvignon blanc", "sake", "riesling"],
+    "pairingText": "Sauvignon Blanc, Sake, and Riesling are great choices for Miso Soup. Saké is an obvious choice when it comes to Japanese food. If you want to stick to grape wine, though, you might opt for sauvignon blanc or riesling. The Dominique Roger Sancerre Domaine Du Carrou Rouge with a 4.6 out of 5 star rating seems like a good match. It costs about 27 dollars per bottle.",
+    "productMatches": [
+      {
+        "id": 436613,
+        "title": "Dominique Roger Sancerre Domaine Du Carrou Rouge",
+        "description": "Made from 35 year old Pinot Noir vines. A lot of red fruits (cherry, sour cherries, raspberry) and spice on the nose. Pairs well with white meat, red meats and can also be served with grilled fish and throughout the meal until cheese course.",
+        "price": "$26.99",
+        "imageUrl": "https://img.spoonacular.com/products/436613-312x231.jpg",
+        "averageRating": 0.920000016689301,
+        "ratingCount": 6,
+        "score": 0.8674,
+        "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fdominique-roger-sancerre-domaine-du-carrou-rouge-2015%2F295083"
+      }
+    ]
+  },
+  "instructions": "Directions:\nAfter the miso has been prepared, start adding the \"stuff\" to the soup pot. It can be your preference, but I opted to start with the onions and chives and then added the zucchini, parsnip, carrots, mushrooms and ginger. Cover the pot and let cook on a low flame for 20-30 minutes, tasting as you go. Add the tofu and pasta, allowing the pasta to cook for 8-10 minutes. Taste the soup, adding red pepper and turn off flame when ready. Place spinach on the bottom of your soup bowl. You can also place the spinach directly in the pot, but since it wilts so quickly I usually do it this way.\nWhat do you usually add to your Miso Soup?\nSeriously Soupy Serena",
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "After the miso has been prepared, start adding the \"stuff\" to the soup pot. It can be your preference, but I opted to start with the onions and chives and then added the zucchini, parsnip, carrots, mushrooms and ginger. Cover the pot and let cook on a low flame for 20-30 minutes, tasting as you go.",
+          "ingredients": [
+            {
+              "id": 11260,
+              "name": "mushrooms",
+              "localizedName": "mushrooms",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/mushrooms.png"
+            },
+            {
+              "id": 11477,
+              "name": "zucchini",
+              "localizedName": "zucchini",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/zucchini.jpg"
+            },
+            {
+              "id": 11124,
+              "name": "carrot",
+              "localizedName": "carrot",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/sliced-carrot.png"
+            },
+            {
+              "id": 11298,
+              "name": "parsnip",
+              "localizedName": "parsnip",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/parsnip.jpg"
+            },
+            {
+              "id": 11156,
+              "name": "chives",
+              "localizedName": "chives",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/fresh-chives.jpg"
+            },
+            {
+              "id": 11216,
+              "name": "ginger",
+              "localizedName": "ginger",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/ginger.png"
+            },
+            {
+              "id": 11282,
+              "name": "onion",
+              "localizedName": "onion",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/brown-onion.png"
+            },
+            {
+              "id": 16112,
+              "name": "miso",
+              "localizedName": "miso",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/miso.jpg"
+            },
+            {
+              "id": 0,
+              "name": "soup",
+              "localizedName": "soup",
+              "image": ""
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404752,
+              "name": "pot",
+              "localizedName": "pot",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+            }
+          ],
+          "length": {
+            "number": 30,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 2,
+          "step": "Add the tofu and pasta, allowing the pasta to cook for 8-10 minutes. Taste the soup, adding red pepper and turn off flame when ready.",
+          "ingredients": [
+            {
+              "id": 11821,
+              "name": "red pepper",
+              "localizedName": "red pepper",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/red-pepper.jpg"
+            },
+            {
+              "id": 20420,
+              "name": "pasta",
+              "localizedName": "pasta",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/fusilli.jpg"
+            },
+            {
+              "id": 0,
+              "name": "soup",
+              "localizedName": "soup",
+              "image": ""
+            },
+            {
+              "id": 16213,
+              "name": "tofu",
+              "localizedName": "tofu",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/tofu.png"
+            }
+          ],
+          "equipment": [],
+          "length": {
+            "number": 10,
+            "unit": "minutes"
+          }
+        },
+        {
+          "number": 3,
+          "step": "Place spinach on the bottom of your soup bowl. You can also place the spinach directly in the pot, but since it wilts so quickly I usually do it this way.",
+          "ingredients": [
+            {
+              "id": 10011457,
+              "name": "spinach",
+              "localizedName": "spinach",
+              "image": "https://spoonacular.com/cdn/ingredients_100x100/spinach.jpg"
+            },
+            {
+              "id": 0,
+              "name": "soup",
+              "localizedName": "soup",
+              "image": ""
+            }
+          ],
+          "equipment": [
+            {
+              "id": 404783,
+              "name": "bowl",
+              "localizedName": "bowl",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/bowl.jpg"
+            },
+            {
+              "id": 404752,
+              "name": "pot",
+              "localizedName": "pot",
+              "image": "https://spoonacular.com/cdn/equipment_100x100/stock-pot.jpg"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "step": "What do you usually add to your Miso Soup?",
+          "ingredients": [
+            {
+              "id": 0,
+              "name": "miso soup",
+              "localizedName": "miso soup",
+              "image": ""
+            }
+          ],
+          "equipment": []
+        },
+        {
+          "number": 5,
+          "step": "Seriously Soupy Serena",
+          "ingredients": [],
+          "equipment": []
+        }
+      ]
+    }
+  ],
+  "originalId": null,
+  "spoonacularScore": 92.7959136962891,
+  "spoonacularSourceUrl": "https://spoonacular.com/miso-soup-with-thin-noodles-652078"
+}

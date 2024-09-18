@@ -1,0 +1,61 @@
+.fridge {
+  &__addedIngredients {
+    margin-top: 15px;
+  }
+
+  &__addedIngredient {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+  }
+
+  &__addedIngredient p {
+    font-size: 0.9rem;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  &__deleteIcon {
+    position: relative;
+    margin-left: auto;
+    width: 20px;
+    height: 20px;
+  }
+
+  &__deleteIcon:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+
+  // &__addedIngredient button {
+  //   margin-left: auto;
+
+  //   background-color: #f9f673;
+  //   border: 2px solid #422800;
+  //   border-radius: 30px;
+  //   box-shadow: #422800 2px 2px 0 0;
+  //   color: #422800;
+  //   cursor: pointer;
+  //   display: inline-block;
+  //   font-weight: 600;
+  //   font-size: 13px;
+  //   padding: 0 18px;
+  //   line-height: 30px;
+  //   text-align: center;
+  //   text-decoration: none;
+  //   user-select: none;
+  //   -webkit-user-select: none;
+  //   touch-action: manipulation;
+  // }
+
+  // .button:hover {
+  //   background-color: #fff;
+  // }
+
+  // .button:active {
+  //   box-shadow: #422800 0px 0px 0 0;
+  //   transform: translate(2px, 2px);
+  // }
+}

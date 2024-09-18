@@ -1,0 +1,43 @@
+.myRecipes {
+
+  &__title {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  &__addedRecipes {
+    margin-top: 15px;
+  }
+
+  &__addedRecipe {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+  }
+
+  &__addedRecipe p{
+    font-size: 0.9rem;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  &__addedRecipe button{
+    margin-left: auto;
+  }
+
+  &__deleteIcon {
+    position: relative;
+    margin-left: auto;
+    width: 20px;
+    height: 20px;
+  }
+
+  &__deleteIcon:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+}

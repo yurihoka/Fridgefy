@@ -1,0 +1,13 @@
+.recipesPage {
+  display: flex;
+  justify-content: center;
+  padding: 30px 40px;
+}
+
+.fridge {
+  flex: 1 1 15%;
+}
+
+.recipes {
+  flex: 1 1 85%;
+}

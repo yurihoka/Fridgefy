@@ -1,0 +1,45 @@
+.fridge {
+  &__title {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  &__form {
+    position: relative;
+  }
+
+  &__inputIngredient {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid hsl(0, 0%, 80%);
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  &__suggestedIngredients {
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px 0;
+    border: 0.5px solid rgb(220, 223, 248);
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  &__suggestedIngredient {
+    display: flex;
+    align-items: center;
+    padding: 3px 0;
+  }
+
+  &__suggestedIngredient:hover {
+    background-color: rgba(219, 224, 251, 0.5);
+    cursor: pointer;
+  }
+
+  &__suggestedIngredient p{
+    padding: 5px;
+  }
+}

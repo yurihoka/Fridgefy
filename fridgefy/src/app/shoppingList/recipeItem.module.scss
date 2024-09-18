@@ -1,0 +1,91 @@
+.recipeNames {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  padding: 8px 5px;
+  font-size: 0.9rem;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  background-color: #f9f673;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 2px 2px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 0 5px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  background-color: #fff;
+}
+
+.button:active {
+  box-shadow: #422800 0px 0px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.panel {
+  gap: 10px;
+}
+
+.summary {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  width: 65%;
+}
+
+.foodImage {
+  object-fit: contain;
+}
+
+@media screen and (max-width: 600px) {
+  .recipeNames {
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .panel {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .summary {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
