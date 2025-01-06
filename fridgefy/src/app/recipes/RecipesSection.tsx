@@ -22,6 +22,7 @@ type DetailedRecipeInfoType = {
   id: number;
   title: string;
   image: string;
+  summary: string;
 };
 
 const RecipesSection = () => {
@@ -34,7 +35,12 @@ const RecipesSection = () => {
   // states
   const [recipesList, setRecipesList] = useState<RecipeListType[]>([]);
   const [detailedRecipeInfo, setDetailedRecipeInfo] =
-    useState<DetailedRecipeInfoType>({ id: 0, title: "", image: "" });
+    useState<DetailedRecipeInfoType>({
+      id: 0,
+      title: "",
+      image: "",
+      summary: "",
+    });
   const [recipeInfoOpen, setRecipeInfoOpen] = useState<boolean>(false);
   const [showNoResults, setShowNoResults] = useState<boolean>(false);
 
