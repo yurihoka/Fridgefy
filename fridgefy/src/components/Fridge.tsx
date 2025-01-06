@@ -1,5 +1,5 @@
 import IngredientForm from "./IngredientForm";
-import IngredientItems, { Ingredient } from "./IngredientItems";
+import IngredientItems, { IngredientType } from "./IngredientItems";
 import { useSession } from "next-auth/react";
 import { useIngredients } from "@/custom_hooks/useIngredients";
 
@@ -36,7 +36,7 @@ const Fridge = () => {
     updateLocalStorage(updatedIngredients);
   };
 
-  const updateLocalStorage = (updatedIngredients: Ingredient[]) => {
+  const updateLocalStorage = (updatedIngredients: IngredientType[]) => {
     if (!userEmail) return;
     const localStorageData = localStorage.getItem(userEmail); // can be null
 
