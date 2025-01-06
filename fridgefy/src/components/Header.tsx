@@ -1,9 +1,8 @@
 import styles from "./header.module.scss";
 import { getServerSession } from "next-auth";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/lib/auth";
 import NavButton from "./NavButton";
 import LogInButton from "./LogInButton";
-import Image from "next/image";
 
 const Header = async () => {
   const session = await getServerSession(authOptions);
