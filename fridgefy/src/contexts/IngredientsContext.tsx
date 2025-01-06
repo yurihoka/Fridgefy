@@ -1,13 +1,13 @@
 "use client";
 
-import { Ingredient } from "@/components/IngredientItems";
+import { IngredientType } from "@/components/IngredientItems";
 import { createContext, ReactNode, useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
 
 // 1-2. define the type of the context
 type IngredientsContextType = {
-  ingredients: Ingredient[];
-  setIngredients: React.Dispatch<React.SetStateAction<Ingredient[]>>;
+  ingredients: IngredientType[];
+  setIngredients: React.Dispatch<React.SetStateAction<IngredientType[]>>;
 };
 
 // 1-3. define the initial value for the context
@@ -30,7 +30,7 @@ export function IngredientsProvider({ children }: { children: ReactNode }) {
   const userEmail = session?.data?.user?.email;
 
   //states
-  const [ingredients, setIngredients] = useState<Ingredient[]>([]);
+  const [ingredients, setIngredients] = useState<IngredientType[]>([]);
 
   //functions
 
